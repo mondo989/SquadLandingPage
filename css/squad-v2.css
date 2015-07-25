@@ -1,24 +1,19 @@
 .hero {
   /* border-bottom: .5px solid black; */
- background: url('../img/hero2.jpg');
+  background: url('../img/hero2.jpg');
 }
-
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
   background: #fff;
   /* margin-top: 10px; */
 }
-
 .squad-logo {
   width: 300px;
   margin-top: -15px!important;
 }
-
 .inner {
   padding-top: 0!important;
   margin-top: 0!important;
 }
-
-
 .hero p {
   text-align: center;
   color: white;
@@ -26,23 +21,19 @@
 .separator {
   background: white;
 }
-
 .hero h1 {
   text-align: center;
   color: white;
-  margin-top: 100px;
+  margin-top: 120px;
 }
-
-
 section.subscribe .container {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.3);
   border-radius: 12px;
   padding-bottom: 20px;
 }
-
-
 section.subscribe {
-  background: url('/img/wood.png');
+  /* background: url('/img/wood.png'); */
+  background: #f3f3f3;
   background-position: center;
 }
 section.subscribe h1 span {
@@ -53,15 +44,31 @@ section.subscribe h1 span {
   font-size: 20px!important;
   letter-spacing: 0;
 }
-
-
-
 .gray {
   background: #f3f3f3;
   border-radius: 12px;
 }
 
-.feat-video .gray{
-  padding-bottom:40px;
+.mb50 {
+  margin-bottom: 30px;
+}
+
+.video-copy {
+  width: 90%;
+  text-align: left;
+  margin-left: -20px;
+}
+
+.feat-video .separator {
+  background: #ccc;
+  border-radius: 120px;
+  opacity: .2;
+}
+
+.feat-video .gray {
+  padding-bottom: 40px;
   padding-top: 40px;
 }
+/* .feat-video h1 {
+}
+ */

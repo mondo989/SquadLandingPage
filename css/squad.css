@@ -17,11 +17,12 @@ section.intro h1 {
 }
 
 section.team h1 {
-  font-size: 30px;
+  /* font-size: 30px; */
 }
 
 .video-copy {
-  width: 370px;
+  width: 80%;
+  margin-top: 20px;
   text-align: center;
   margin: 0 auto;
 }
@@ -89,7 +90,7 @@ input.squad-ios {
 }
 
 input.squad-ios {
-  widht: 100px!important;
+  width: 100px!important;
   font-weight: 500;
 }
 
@@ -100,6 +101,17 @@ h1.arrow {
 .hero {
   /* border-bottom: .5px solid black; */
   /* background: url('../img/community-people.png'); */
+}
+
+.squad-video-img {
+  width:80%;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.features-link {
+  color: #5fb336;
+  font-weight: 500;
 }
 
 .hero p {
@@ -114,8 +126,13 @@ h1.arrow {
   height: 1px;
   width: 80%;
   margin: 0 auto;
+}
 
-
+.separator {
+  background: rgba(0, 0, 0, 0.1);
+  height: 1px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 
@@ -132,11 +149,10 @@ section.features p {
 
 
 .video-holder {
-  padding-top: 40px;
-  width: 80%;
-  max-width: 500px;
+  width: 100%;
   margin: 0 auto;
-  z-index: 90000!important;
+  text-align: center;
+  overflow: hidden!important;
 }
 
 
@@ -172,6 +188,39 @@ section.features p {
   margin-left: -120px;
   overflow-x: hidden!important;
 }
+
+.social-btn {
+  background: #fff;
+  opacity: .7;
+  border: 1px solid #5fb336;
+  transition: 0;
+
+}
+
+.social-btn:hover{
+  background: #5fb336;
+  opacity: 1;
+}
+
+.social-btn i {
+  color: black;
+}
+
+.social-btn:hover i {
+  color: #fff;
+}
+
+.modal-container {
+  height: 90%;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.modal-container iframe {
+  margin-top: 150px;
+}
+
 
 .inner {
   padding-top: 50px;
