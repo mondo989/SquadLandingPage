@@ -24,7 +24,7 @@
 .hero h1 {
   text-align: center;
   color: white;
-  font-weight: 400;
+  font-weight: 500;
   width: 100%;
   margin: 0 auto;
   margin-top: 120px;
@@ -35,9 +35,9 @@ section.subscribe .container {
   padding-bottom: 20px;
 }
 section.subscribe {
-   background: url('/img/ios-2.png');
-  /* background: #f3f3f3; */
+  background: url('/img/ios-2.png');
   background-position: center;
+  background-repeat: no-repeat;
 }
 section.subscribe h1 span {
   color: white;
@@ -46,15 +46,37 @@ section.subscribe h1 span {
   font-size: 20px!important;
   letter-spacing: 0;
 }
+section.features p {
+  margin: 0 auto;
+  /* width: 80%; */
+}
+span.circle {
+  display: block;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 120px;
+  width: 100px;
+  margin: 0 auto;
+  height: 100px;
+  border: 2px solid #5fb336;
+  transition: .5s;
+}
+span.circle:hover {
+  -webkit-animation: pulse;
+  animation: pulse;
+  background: green;
+  border: 2px solid white;
+}
+span.circle i {
+  margin-top: 20px;
+  font-size: 60px;
+}
 .gray {
   background: #f3f3f3;
   border-radius: 12px;
 }
-
 .mb50 {
   margin-bottom: 30px;
 }
-
 .video-copy {
   width: 90%;
   text-align: left;
@@ -65,11 +87,9 @@ section.subscribe h1 span {
 .mt50 {
   margin-top: 40px;
 }
-
 .jobs {
   padding: 40px 0 90px 0;
 }
-
 .feat-video .separator {
   background: #ccc;
   border-radius: 120px;
@@ -77,19 +97,60 @@ section.subscribe h1 span {
 }
 .input-ios {
   background: white!important;
+  color: black!important;
+  text-align: center;
+  font-weight: bold;
 }
-
 .contact-details {
   width: 100%;
   margin-left: 0!important;
   background: url('../img/map.png');
 }
-
-
+section.jobs h2 {
+  font-size: 25px;
+  font-weight: 400;
+}
 .feat-video .gray {
   padding-bottom: 40px;
   padding-top: 40px;
 }
-/* .feat-video h1 {
+.sq-btn:hover {
+  background: white;
+  border: 1px solid green;
 }
- */
+.sq-btn {
+  background: #5fb336;
+  font-weight: bold;
+  padding: 20px;
+  color: white;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 7px;
+  border: 1px solid #5fb336;
+}
+.map {
+  padding: 200px 0;
+  background: url('../img/map-2.jpg');
+  background-size: 100% 180%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.map .col-md-4 {
+  background: rgba(255, 255, 255, .8);
+  border: 2px solid black;
+  padding: 20px;
+  margin-top: -20px;
+}
+.credit .sq-btn {
+  margin-top: -5px!important;
+  padding: 10px 20px;
+}
+.up-btn:hover {
+  background: green;
+}
+a:hover {
+  color: green;
+}
+.up-btn {
+  position: relative;
+}
