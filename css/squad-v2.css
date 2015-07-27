@@ -30,19 +30,18 @@
   margin-top: 120px;
 }
 section.subscribe .container {
-  background: rgba(0, 0, 0, 0.3);
+  /* background: rgba(0, 0, 0, 0.3); */
   border-radius: 12px;
   padding-bottom: 20px;
 }
 section.subscribe {
-  /* background: url('/img/wood.png'); */
-  background: #f3f3f3;
+   background: url('/img/ios-2.png');
+  /* background: #f3f3f3; */
   background-position: center;
 }
 section.subscribe h1 span {
   color: white;
   text-transform: none;
-  letter-spacing: 1;
   font-weight: 400;
   font-size: 20px!important;
   letter-spacing: 0;
@@ -60,13 +59,32 @@ section.subscribe h1 span {
   width: 90%;
   text-align: left;
   margin-left: -20px;
+  color: #454545;
+  font-size: 17px;
+}
+.mt50 {
+  margin-top: 40px;
+}
+
+.jobs {
+  padding: 40px 0 90px 0;
 }
 
 .feat-video .separator {
   background: #ccc;
   border-radius: 120px;
-  opacity: .2;
+  opacity: .3;
 }
+.input-ios {
+  background: white!important;
+}
+
+.contact-details {
+  width: 100%;
+  margin-left: 0!important;
+  background: url('../img/map.png');
+}
+
 
 .feat-video .gray {
   padding-bottom: 40px;
