@@ -69,6 +69,10 @@ section.features p {
   margin: 0 auto;
   /* width: 80%; */
 }
+section.features img {
+  width: 250px;
+}
+
 span.circle {
   display: block;
   background: rgba(255, 255, 255, 1);
