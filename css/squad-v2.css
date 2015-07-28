@@ -35,24 +35,43 @@ section.subscribe .container {
   padding-bottom: 20px;
 }
 section.subscribe {
-  background: url('/img/ios-2.png');
+  padding: 120px 0 110px;
+  z-index: 100!important;
+
+  background: url('/img/ios-4.png'), url('/img/turf-5.png');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 280px auto, cover;
+  background-position: 23% 40px, left;
+  background-attachment: scroll, fixed;
+  /* background: url('/img/ios-3.png');
   background-position: center;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-repeat: no-repeat; */
 }
+
 section.subscribe h1 span {
-  color: white;
+  color: #fff;
   text-transform: none;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20px!important;
   letter-spacing: 0;
 }
+section.subscribe h1 {
+  padding-bottom: 0;
+  margin-bottom: 25px;
+  font-weight: 500;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 30px;
+}
+
 section.features p {
   margin: 0 auto;
   /* width: 80%; */
 }
 span.circle {
   display: block;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 1);
   border-radius: 120px;
   width: 100px;
   margin: 0 auto;
@@ -60,15 +79,18 @@ span.circle {
   border: 2px solid #5fb336;
   transition: .5s;
 }
+section.final-cta a {
+  padding: 20px 50px;
+}
+
 span.circle:hover {
-  -webkit-animation: pulse;
-  animation: pulse;
-  background: green;
+  background: white;
   border: 2px solid white;
 }
 span.circle i {
   margin-top: 20px;
   font-size: 60px;
+  color: #5fb336;
 }
 .gray {
   background: #f3f3f3;
@@ -87,7 +109,16 @@ span.circle i {
 .mt50 {
   margin-top: 40px;
 }
+.ios-signup {
+  width: 300px;
+  margin-bottom: -400px;
+  z-index: 0;
+  position: absolute;
+  bottom: -30;
+}
+
 .jobs {
+  /* background: red; */
   padding: 40px 0 90px 0;
 }
 .feat-video .separator {
@@ -100,6 +131,12 @@ span.circle i {
   color: black!important;
   text-align: center;
   font-weight: bold;
+}
+input.squad-ios {
+  background: #5fb336!important;
+  width: 140px!important;
+  font-size: 17px;
+  padding: 17px 20px!important;
 }
 .contact-details {
   width: 100%;
@@ -153,4 +190,30 @@ a:hover {
 }
 .up-btn {
   position: relative;
+}
+
+.video-holder {
+  max-width: 700px;
+}
+
+
+
+
+section.final-cta {
+  padding: 80px 0 0;
+}
+
+section.final-cta h1 {
+  font-weight: 400;
+  margin-top: 30px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  line-height: 1.4;
+}
+
+section.final-cta img {
+  width: 800px;
+  height: auto;
+  margin-top: -200px;
 }
