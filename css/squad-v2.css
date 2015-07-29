@@ -65,12 +65,33 @@ section.subscribe h1 {
   font-size: 30px;
 }
 
+a.features-link {
+  font-size: 20px;
+}
+
 section.features p {
   margin: 0 auto;
+  font-size: 16px;
+  color: black;
+  height: 90px;
   /* width: 80%; */
 }
+.team h2 {
+  border-bottom: 1px solid #f3f3f3;
+}
+section.features h2 {
+font-size: 28px;
+margin-top: 25px;
+padding-top: 20px;
+}
 section.features img {
-  width: 250px;
+  max-width: 70%;
+}
+
+.trending {
+  background: red;
+  
+
 }
 
 span.circle {
@@ -135,10 +156,12 @@ span.circle i {
   color: black!important;
   text-align: center;
   font-weight: bold;
+  border: 2px solid black!important;
 }
 input.squad-ios {
   background: #5fb336!important;
   width: 140px!important;
+  border: 1px solid black!important;
   font-size: 17px;
   padding: 17px 20px!important;
 }
