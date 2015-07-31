@@ -30,7 +30,7 @@
 	.credit { text-align: center; }
 	.iphone { margin-bottom: 30px;}
 	.features-wrapper img {
-		 width: 200px;
+		 width: 240px; height: auto;
 	}
 	.features-wrapper .col-md-4 {
 		margin: 20px 0!important;
@@ -54,10 +54,31 @@
 		transition: .5s;
 	}
 
+	.feat-video .col-md-offset-1 {
+		height: 350px;
+	}
+
 	.features-wrapper .col-md-4 {
 		width: 100%!important;
 		/* Yeaah I know dont mod Bstrap */
 }
+	section.final-cta {
+		padding: 280px 0 0!important;
+	}
+
+	.final-cta .col-md-6 {
+		text-align: center;
+		z-index: 0!important;
+		opacity: .2!important;
+	}
+	.final-cta .col-md-5 {
+		z-index: 9000;
+	}
+
+	.final-cta img {
+		width: 500px;
+		margin-top: -350px;
+	}
 
 	.features-wrapper .col-md-4:hover  {
 		background: #f3f3f3;

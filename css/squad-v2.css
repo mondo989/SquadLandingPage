@@ -68,8 +68,7 @@ a.features-link {
 .features-wrapper .col-md-4 {
   margin: 0 5px;
   width: 31.3%;
-
-  border: 3px solid #f3f3f3;
+  border: 2px solid #f3f3f3;
   border-radius: 12px;
   height: 600px;
   padding-top: 30px;
@@ -85,7 +84,7 @@ section.features p {
   border-bottom: 1px solid #f3f3f3;
 }
 section.features h2 {
-  font-size: 28px;
+  font-size: 25px;
   margin-top: 25px;
   padding-top: 20px;
 }
@@ -185,7 +184,6 @@ section.jobs h2 {
   background: #5fb336;
   font-weight: bold;
   padding: 10px 20px;
-
   color: white;
   margin-top: 10px;
   display: inline-block;
@@ -193,7 +191,7 @@ section.jobs h2 {
   border: 1px solid #5fb336;
 }
 .final-cta .sq-btn {
-  font-size: 30px;
+  font-size: 20px;
 }
 .map {
   /* background: url('../img/map-2.jpg');
@@ -237,9 +235,9 @@ a:hover {
   margin-bottom: 0;
 }
 .video-holder img {
-  background: red;
   max-height: 300px;
   min-height: 250px;
+  min-width: 300px;
   max-width: 500px;
 }
 section.final-cta {
@@ -247,20 +245,18 @@ section.final-cta {
 }
 section.final-cta h1 {
   font-weight: 400;
-  margin-top: 30px;
-  width: 80%;
+  margin-top: 20px;
+  width: 90%;
   margin: 0 auto;
   margin-bottom: 30px;
   line-height: 1.4;
+  font-size: 25px;
 }
 section.final-cta img {
   width: 800px;
   height: auto;
   margin-top: -200px;
 }
-
-
-
 
 /* Shoutout to my <3 Mary Lou at codrops.co */
 
@@ -297,16 +293,12 @@ section.final-cta img {
   height: 24px;
   right: 30px;
   top: 15px;
-
   content: "\f078";
   font-family: FontAwesome;
   font-style: normal;
-
-
 }
 .ac-container input:checked + label:hover:after {
   /* background-image: url(../images/arrow_up.png); */
-
   content: "\f077";
   font-family: FontAwesome;
   font-style: normal;
@@ -340,7 +332,6 @@ section.final-cta img {
 .ac-container input:checked ~ article.ac-x-small {
   height: 100px;
 }
-
 .ac-container input:checked ~ article.ac-small {
   height: 140px;
 }
@@ -350,21 +341,23 @@ section.final-cta img {
 .ac-container input:checked ~ article.ac-large {
   height: 230px;
 }
-
-
-
-
-
-
-
-
-
 .sq-btn i {
   font-size: 20px;
   margin-left: 5px;
 }
-
-
 #login-modal {
   background: rgba(0, 0, 0, 0.8)!important;
+}
+h2::after {
+  content: " ";
+  border: solid 1px rgb(95, 179, 54);
+  display: block;
+  width: 35px;
+  margin: 25px auto;
+}
+
+.features h2::after {
+  border: solid 1px rgb(95, 179, 54);
+  width: 190px;
+  border-radius: 50%;
 }
