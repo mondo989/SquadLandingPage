@@ -361,3 +361,11 @@ h2::after {
   width: 190px;
   border-radius: 50%;
 }
+footer .col-md-4 a.up-btn {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+footer {
+  overflow: hidden;
+}
