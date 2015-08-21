@@ -1,6 +1,9 @@
 .hero {
   /* border-bottom: .5px solid black; */
-  background: url('../img/hero2.jpg');
+  /* background: url('../img/hero2.jpg'); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: stretch;
 }
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
   background: #fff;
@@ -185,6 +188,7 @@ section.jobs h2 {
   font-weight: bold;
   padding: 10px 20px;
   color: white;
+  font-size: 29px;
   margin-top: 10px;
   display: inline-block;
   border-radius: 7px;
